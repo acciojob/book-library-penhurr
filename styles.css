@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+body{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:#f8f8f8;
+}
+
+.book-library{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:600px;
+	background-color:#ffffff;
+	box-shadow:0 0 20px gray;
+	
+	border-radius:10px;
+}
+
+.book-library > h1{
+	text-align:center;
+	width:100%;
+	background-color:#f8f8f8;
+	margin-bottom:0;
+	font-family:arial;
+}
+
+.book{
+	
+	background-color:#f8f8f8;
+	width:100%;
+	margin-top:10px;
+	
+	text-align:center;
+}
+.book > div{
+	padding:15px;
+}
+.book img{
+	
+	box-shadow: 0 0 10px gray;
+	
+}
+.book h1{
+	margin-bottom:0;
+	
+	font-family:arial;
+	text-align:left
+}
+.book p{
+	margin-top:0px;
+	text-align:left;
+	color:#777777
+}
+.book button{
+	width:100%;
+	border:none;
+	background-color:#2ecc71;
+	height:30px;
+	border-radius:5px;
+	color:white;
+	font-family:arial;
+}
